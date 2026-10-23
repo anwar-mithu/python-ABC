@@ -1,0 +1,436 @@
+PYTHON FOR AI / ML / MLOPS / AGENTIC AI
+===========================================
+
+FOCUSED LEARNING ROADMAP
+------------------------
+You do NOT need to master every part of Python.
+Focus on the topics below in roughly this order.
+
+============================================================
+PART 1 — CORE PYTHON
+============================================================
+
+01. Variables and Data Types
+    - int
+    - float
+    - str
+    - bool
+    - None
+
+02. Operators
+    - Arithmetic: +, -, *, /, //, %, **
+    - Comparison: ==, !=, <, >
+    - Logic: and, or, not
+
+03. Strings
+    - Indexing and slicing
+    - .split()
+    - .strip()
+    - .replace()
+    - f-strings
+
+04. Lists
+    - Indexing
+    - Slicing
+    - .append()
+    - .remove()
+    - Sorting
+
+05. Tuples
+
+06. Dictionaries
+    VERY IMPORTANT for:
+    - AI
+    - APIs
+    - JSON
+    - Agent state
+
+07. Sets
+    - Useful
+    - Lower priority than lists and dictionaries
+
+08. if / elif / else
+
+09. for Loops
+
+10. while Loops
+
+11. Functions
+    VERY IMPORTANT
+
+12. Function Arguments
+    - Positional arguments
+    - Keyword arguments
+    - Default arguments
+
+13. return
+
+14. Scope
+    - Local variables
+    - Global variables
+
+15. List Comprehensions
+    Example:
+    [x * 2 for x in numbers]
+
+16. Dictionary Comprehensions
+
+============================================================
+PART 2 — WORKING WITH REAL PYTHON PROJECTS
+============================================================
+
+17. Modules and Imports
+    - import
+    - from ... import ...
+
+18. Working with Files
+    - open()
+    - Read/write .txt
+    - Read/write .json
+    - Read/write .csv
+
+19. JSON
+    - json.load()
+    - json.loads()
+    - json.dump()
+
+20. Exception Handling
+    - try
+    - except
+    - finally
+    - raise
+
+21. Classes and Objects (OOP)
+    Focus on:
+    - class
+    - __init__
+    - self
+    - methods
+
+22. Type Hints
+    Examples:
+    - str
+    - int
+    - list[str]
+    - dict[str, str]
+    - Optional
+
+23. *args and **kwargs
+    - Understand them
+    - Do not obsess over them initially
+
+24. Lambda Functions
+    - Basic understanding is enough
+
+25. Iterators and Generators
+    - yield
+    - Useful for large datasets
+
+26. Decorators
+    - Learn later
+    - Common in FastAPI and frameworks
+
+27. Virtual Environments
+    - venv
+    - pip
+
+28. Packages and Project Structure
+    - Folders
+    - Modules
+    - __init__.py
+
+29. Environment Variables
+    - .env
+    - os.getenv()
+    VERY IMPORTANT for:
+    - API keys
+    - Configuration
+    - Secrets
+
+30. Path Handling
+    - pathlib
+
+============================================================
+PART 3 — PYTHON FOR DATA, AI, AND APIs
+============================================================
+
+31. HTTP Requests / APIs
+    - requests.get()
+    - requests.post()
+    - JSON responses
+
+32. NumPy
+    Learn:
+    - Arrays
+    - Shapes
+    - Indexing
+    - Vector operations
+    - mean
+    - sum
+    - Matrix multiplication
+
+33. Pandas
+    Learn:
+    - DataFrame
+    - Filtering
+    - Selecting columns
+    - Missing values
+    - groupby
+    - merge
+
+34. Matplotlib
+    - Basic plots
+    - Experiment visualization
+    - Result visualization
+
+35. Object Shapes and Dimensions
+    VERY IMPORTANT in ML:
+    - Scalar
+    - Vector
+    - Matrix
+    - Tensor
+
+36. Basic Debugging
+    - print()
+    - Breakpoints
+    - Reading tracebacks
+
+37. Logging
+    - logging
+    VERY IMPORTANT for:
+    - AI agents
+    - Experiments
+    - Production systems
+
+38. Dataclasses
+    - @dataclass
+    Useful for:
+    - Agent state
+    - Configuration
+    - Structured data
+
+39. Enums
+    Useful for actions such as:
+    - GENERATE
+    - EXECUTE
+    - STOP
+
+40. Async Programming
+    - async
+    - await
+    Important for:
+    - APIs
+    - Agent systems
+    - Tool calls
+
+============================================================
+PART 4 — AI / ML ENGINEERING
+============================================================
+
+41. Calling External Libraries
+    Goal:
+    - Learn to read documentation
+    - Understand APIs
+    - Do not try to memorize every library
+
+42. PyTorch Basics
+    Learn:
+    - Tensors
+    - Models
+    - Datasets
+    - Loss
+    - Optimizer
+    - Training loop
+
+43. Hugging Face Basics
+    Learn:
+    - Tokenizer
+    - Model loading
+    - Text generation
+
+44. Model Input / Output Structures
+    Learn to work with:
+    - Dictionaries
+    - Tensors
+    - JSON
+    - Structured outputs
+
+45. API Development with FastAPI
+    Learn:
+    - Routes
+    - Request models
+    - Response models
+    - GET
+    - POST
+
+46. Basic Concurrency
+    Learn after normal Python:
+    - Processes
+    - Threads
+    - Async
+
+47. Testing
+    VERY IMPORTANT for production AI / MLOps:
+    - assert
+    - pytest
+
+48. Command-Line Arguments
+    - argparse
+    Useful for:
+    - Running experiments
+    - Configuring scripts
+
+49. Serialization
+    - Saving models
+    - Loading models
+    - Saving Python objects
+
+50. Git-Friendly Python Project Organization
+    Learn how to structure:
+    - scripts/
+    - src/
+    - configs/
+    - tests/
+
+============================================================
+TOP PRIORITIES FOR AI / MLOPS / AGENTIC AI
+============================================================
+
+Pay EXTRA attention to these:
+
+    Functions
+        ↓
+    Dictionaries
+        ↓
+    Loops
+        ↓
+    Classes
+        ↓
+    Exception Handling
+        ↓
+    Files + JSON
+        ↓
+    APIs
+        ↓
+    NumPy
+        ↓
+    Pandas
+        ↓
+    Type Hints
+        ↓
+    Environment Variables
+        ↓
+    Logging
+        ↓
+    async / await
+        ↓
+    FastAPI
+        ↓
+    PyTorch
+        ↓
+    Hugging Face
+        ↓
+    Testing
+
+============================================================
+TOPICS YOU CAN IGNORE FOR NOW
+============================================================
+
+You do NOT need to spend time on advanced topics such as:
+
+    - Metaclasses
+    - Complicated decorators
+    - Descriptors
+    - Operator overloading
+    - Deep inheritance
+
+Learn them later only if your work requires them.
+
+============================================================
+YOUR LEARNING STRATEGY
+============================================================
+
+STAGE 1
+-------
+Get solid at topics 1–30.
+
+Do NOT wait until you know all of Python before starting AI.
+
+STAGE 2
+-------
+Start building AI projects while learning topics 31–50.
+
+Learn Python and AI together.
+
+============================================================
+TARGET SKILL LEVEL
+============================================================
+
+Your goal is to understand code like this line by line:
+
+def execute_query(question: str) -> dict:
+    try:
+        response = requests.post(
+            API_URL,
+            json={"question": question}
+        )
+
+        result = response.json()
+
+        return {
+            "success": True,
+            "data": result
+        }
+
+    except Exception as error:
+        return {
+            "success": False,
+            "error": str(error)
+        }
+
+This small example contains many important concepts:
+
+    ✓ Functions
+    ✓ Function arguments
+    ✓ Type hints
+    ✓ Dictionaries
+    ✓ APIs
+    ✓ JSON
+    ✓ Variables
+    ✓ Exception handling
+    ✓ Return values
+
+============================================================
+FINAL GOAL
+============================================================
+
+Do not spend 6 months learning Python before touching AI.
+
+Instead:
+
+    Learn Python fundamentals
+            ↓
+    Build small projects
+            ↓
+    Learn APIs and data tools
+            ↓
+    Build AI applications
+            ↓
+    Learn PyTorch + Hugging Face
+            ↓
+    Learn FastAPI + MLOps practices
+            ↓
+    Build production-quality AI systems
+
+============================================================
+CURRENT LEARNING PROGRESS
+============================================================
+
+✓ 01–03: Previous fundamentals
+✓ 04: Lists
+✓ 05: Tuples
+
+NEXT:
+→ 06. Dictionaries
+
+============================================================
